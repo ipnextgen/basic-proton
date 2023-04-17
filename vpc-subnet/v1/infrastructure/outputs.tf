@@ -6,7 +6,7 @@ output "vpc_id" {
 
 output "aws_subnet" {
   description = "subnet"
-  value       = module.vpc_subnet.aws_subnet_id
+  value       = module.vpc_subnet.subnet_one_id
 }
 
 
