@@ -1,0 +1,16 @@
+schema:
+  format:
+    openapi: "3.0.0"
+  service_input_type: "EC2"
+  types:
+    EC2ServiceInput:
+      type: object
+      description: "Input properties for a ec2 service"
+      properties:
+        image:
+          type: string
+          title: "Name tag of the EC2"
+          description: "The name of the EC2 instance"
+          default: "proton provision EC2"
+          minLength: 1
+          maxLength: 200
