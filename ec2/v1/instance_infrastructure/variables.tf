@@ -30,5 +30,5 @@ variable "service_instance" {
 variable "region" {
   description = "aws region"
   type        = string
-  default     = "us-east-1"
+  default     = "ca-central-1"
 }
